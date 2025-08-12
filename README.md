@@ -26,54 +26,54 @@ It demonstrates practical skills in Python (Web Scraping, Data Cleaning, EDA) an
 1. Web Scraping (Python + Selenium)
 Scraped job postings from Indeed Canada for multiple job roles.
 
-Extracted:
-
-Job_role_category
-
-Job Title
-
-Company Name
-
-Location
-
-Salary (raw text)
-
-Job Type
-
-Skills required
-
-Work Location
-
-Job URL
-
-Implemented pagination for multiple pages.
-
-Added error handling (try/except) for missing fields.
-
-Clicked each job card to scrape detailed descriptions.
+  Extracted:
+  
+  Job_role_category
+  
+  Job Title
+  
+  Company Name
+  
+  Location
+  
+  Salary (raw text)
+  
+  Job Type
+  
+  Skills required
+  
+  Work Location
+  
+  Job URL
+  
+  Implemented pagination for multiple pages.
+  
+  Added error handling (try/except) for missing fields.
+  
+  Clicked each job card to scrape detailed descriptions.
 
 2. Data Cleaning (Python + Pandas)
 Removed duplicates using job_url to ensure unique job postings.
 
-Dropped missing values in essential columns like job_category_role.
-
-Standardized text formats:
-
-Converted job_title, company, and location to title case.
-
-Cleaned location column:
-
-Extracted "City, Province" using regex.
-
-Transformed salary column:
-
-Converted salary ranges to average annual salary.
-
-Converted monthly, weekly, and hourly salaries to annual (×12, ×52).
-
-Dropped unused columns (e.g., skills_found if empty).
-
-Saved cleaned dataset as cleanedindeed.xlsx.
+  Dropped missing values in essential columns like job_category_role.
+  
+  Standardized text formats:
+  
+  Converted job_title, company, and location to title case.
+  
+  Cleaned location column:
+  
+  Extracted "City, Province" using regex.
+  
+  Transformed salary column:
+  
+  Converted salary ranges to average annual salary.
+  
+  Converted monthly, weekly, and hourly salaries to annual (×12, ×52).
+  
+  Dropped unused columns (e.g., skills_found if empty).
+  
+  Saved cleaned dataset as cleanedindeed.xlsx.
 
 3. Exploratory Data Analysis (Python & Power Bi)
 Analyzed:
@@ -113,33 +113,33 @@ Analyzed:
 4. Data Visualization (Power BI)
 Created an interactive dashboard with:
 
-KPIs:
-
-Total Jobs: 2,264
-
-Unique Companies: 896
-
-Max Salary: $269K
-
-Min Salary: $23K
-
-Average Salary: $97K
-
-Charts:
-
-Jobs by Province (drill-through available)
-
-Jobs by Job Type
-
-Jobs by Location (top cities)
-
-Top 5 Hiring Companies
-
-Average Salary by Province
-
-Filters:
-
-Job Category filter for custom analysis.
+  KPIs:
+  
+  Total Jobs: 2,264
+  
+  Unique Companies: 896
+  
+  Max Salary: $269K
+  
+  Min Salary: $23K
+  
+  Average Salary: $97K
+  
+  Charts:
+  
+  Jobs by Province (drill-through available)
+  
+  Jobs by Job Type
+  
+  Jobs by Location (top cities)
+  
+  Top 5 Hiring Companies
+  
+  Average Salary by Province
+  
+  Filters:
+  
+  Job Category filter for custom analysis.
 
 **Key Insights**
 - Ontario has the highest job postings (1,241), followed by Quebec and Alberta.

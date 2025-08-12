@@ -1,5 +1,5 @@
 **Indeed Job Market Analysis — Canada**
--Project Overview
+**Project Overview**
 This project is an end-to-end Data Analytics pipeline designed to scrape, clean, analyze, and visualize job posting data from Indeed for various analyst roles in Canada (Date posted: last 14 days from 5-Aug-25)
 It demonstrates practical skills in Python (Web Scraping, Data Cleaning, EDA) and Power BI (Data Visualization & Dashboard Design).
 
